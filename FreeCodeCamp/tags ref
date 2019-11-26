@@ -1,0 +1,27 @@
+                                        --Tags HTML--
+
+!DOCTYPE                    --> Define a versão da linguagem HTML usada
+html                        --> Tag inicial para englobar todo o código HTML. Aparece depois do DOCTYPE
+head                        --> Marcações de metadados
+body                        --> Conteúdo
+h1, h2, h3, h4, h4, h5      --> cabeçalho
+footer                      --> rodapé
+nav                         --> 
+video                       --> 
+article                     --> 
+section                     --> 
+main                        --> Ajuda a achar o conteúdo principal da página
+img                         --> Permite colocar imagens. <img src="sitequetemafoto.com.br">. Deve ter um elemento alt
+                            anchor element
+form                        --> Tag para criação de um formulário.
+input                       --> Entrada de dados do usuário (types: radio, button, checkboxes, text)
+label                       --> Agrupa tipos de input, ou inputs com o mesmo sentido
+div                         --> Divisão genérica.
+
+                                      --Atributos HTML--
+
+alt                         --> O atributo alt tem a função de explicar a imagem caso ela falhe no carregamento e para 
+                            aumentar a acessibilidade.
+href                        --> linka a página ao texto com hyperlink.
+src                         --> insere a origem da imagem (URL, caso venha da internet ou nome do arquivo caso esteja no 
+                            mesmo diretório)

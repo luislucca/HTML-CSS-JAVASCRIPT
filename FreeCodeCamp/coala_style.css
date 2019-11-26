@@ -1,0 +1,90 @@
+/*
+    classes declaradas por último têm prioridade
+    id sobrescreve classes
+    style na tag sobrescreve classes e ids
+    !important   <- esta palavra-chave torna a declaração imune de sobrescritas
+    
+    declaração de variáveis:
+        --variable-name: value;
+        attribute: var(--variable-name);
+
+    para questões de compatibilidade de código com browsers antigos, devemos ter declarações de fallback para variaveis
+    ex.:
+        background: red;
+        background: var(--variable-name);
+*/
+
+:root{
+    --coala-color: #1C1F26;
+}
+
+h1{
+    color: #25732E;
+    font-size: 46px;
+    font-family: 'Itim', cursive;
+}
+
+h2{
+    color: #25732E;
+    font-size: 30px;
+    font-family: 'Itim', cursive;
+    text-align: center;
+}
+
+main{
+    text-align: center;
+}
+
+p{
+    color: #66734F;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.p1 {
+    color: #1C1F26;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.p2 {
+    color: #1C1F26;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.gray-background {
+    background-color: var(--coala-color);
+    padding: 0px;
+}
+
+li{
+    color: #73633E;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.medium-image{
+    width: 500px;
+}
+
+.thin-green-border {
+    border-color: #1B4001;
+    border-width: 15px;
+    border-style: none double;
+}
+
+.round-border {
+    border-radius: 50%;
+    border-style: none;
+}
+
+form {
+    background-color: #25732E;
+    text-align: center;
+    margin: 0px 500px 0px 500px;
+}
+
+[type=] {
+    
+}
